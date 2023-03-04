@@ -1,2 +1,2 @@
 # Fruits-Project
-a project based on mongodb with nodejs
+based on native mongodb driver 
