@@ -30,4 +30,13 @@ const person = new Person ({
     age: 79
 });
 
-person.save();
+//person.save();
+
+Fruit.find(function(err, fruits){
+    if(err){
+        console.log(err);
+    }
+    else{
+        console.log(fruits);
+    }
+});
